@@ -2,9 +2,24 @@
 
 include_once('header.php');
 ?>
+   <div style="font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/front.jpg'); /* Adjust the path as necessary */
+  background-size: cover;
 
+  background-position: center;
+  background-repeat: no-repeat;">
 
 <div class="container">
+      <div style="font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/front.jpg'); /* Adjust the path as necessary */
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;">
   <h1>CONTACT NOW</h1>
  
 
@@ -27,7 +42,3 @@ include_once('header.php');
   <p>Email: <a href="mailto:car@carwashmanagement.com">car@carwashmanagement.com</a></p>
   <p>Address: 123 Main St,Aluva, Ernakualam 12345</p>
 </div>
-
-<?php
-include_once('footer.php');
-?>

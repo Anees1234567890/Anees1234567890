@@ -1,73 +1,60 @@
 <head>
   <link rel="stylesheet" href="styles.css">
+<style>
+
+</style>
 </head>
-<div>
-<font><bold><h1 align="center" > CAR  WASH PRO</h1></bold></font>
+ 
+<div style="background-color:white;  background-size: cover;
+  background-position: center;background-repeat: no-repeat; color: #fff; padding: -1px;">
+<font size="+3"><bold><h1 align="center" ><font color="darkblue"> CAR  WASH PRO</h1></font></bold></font>
 </div>
 <?php
 include_once('header.php');
 ?>
+ <div style="font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/backgr.jpg'); /* Adjust the path as necessary */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;">
 
-<div class="container">
-  <h1 align="center" style="background-color:darkblue ; color: #fff; padding: 10px;">Welcome to Car Wash Management System</h1>
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br><br>
+
+  <font color="white" size="+4"><h4 align="center">Welcome to Car Wash Management System</h4></font>
+
   <br>
   <br>
-
-  <p align="center" style="font-size: 18px;">We provide a clean, convenient, and environmentally friendly car wash experience.</p>
-
-  <h2 align=center style="background-color:darkcyan ; color: darkblue; padding: 10px;">Our Featured Services</h2>
-  <br>
-    <h1><bold>Exterior Wash</bold></h1> :
-  <ul style="list-style: none; padding: 0; margin: 0;">
-    <li style="background-color: #f0f0f0; padding: 10px; margin-bottom: 10px;">
-
-      <img src="images/ex.jpg" alt="Exterior Wash" style="width: 800px; height: 500px; margin-right: 5px;">
-     
-      <ul type="button" style="list-style: none; padding: 0; margin: 0;">
-        <br>
-        <br>
-
-        <li>Thorough cleaning of your vehicle's exterior</li><br>
-        <li>Use of eco-friendly cleaning products</li><br>
-        <li>Exterior drying and finishing</li><br>
-      </ul>
-    </li>
-     <h1><bold>Interior Cleaning</bold></h1>: 
-    <li style="background-color: #f0f0f0; padding: 10px; margin-bottom: 10px;">
-      <img src="images/inte.jpg" alt="Interior Cleaning" style="width: 800px; height: 500px; margin-right: 5px;">
-     
-      <ul style="list-style: none; padding: 0; margin: 0;">
-         <br>
-        <br>
-        <li>Thorough cleaning of your vehicle's interior</li> <br>
-        <li>Vacuuming and sanitizing of interior surfaces</li> <br>
-        <li>Interior detailing and finishing</li>  <br>
-      </ul>
-    </li>
-     <h1><bold>Deluxe Package</bold></h1>:
-    <li style="background-color: #f0f0f0; padding: 10px; margin-bottom: 10px;">
-      <img src="images/delu.jpg" alt="Deluxe Package" style="width: 800px; height:
-      <ul style="list-style: none; padding: 0; margin: 0;">
-         <br>
-          <br>
-        <li>Exterior wash and interior cleaning</li> <br>
-        <li>Use of premium cleaning products</li> <br>
-       <li>polishing all around</li> <br>
-        <li>Deluxe detailing and finishing</li> <br>
-      </ul>
-    </li>
-  </ul>
-  <br>
-  <p style="text-align: center;">Ready to get your car washed? <a href="contact.php">Contact us</a> to schedule an appointment today!</p>
 
  
-  <div style="background-color: #333; color: #fff; padding: 10px; margin-top: 20px;">
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+  
+ 
+  
+</body>
+</div>
+<div class="container" style="  background-color:grey;">
+ <div style="  background-color:grey;
+  background-position: center;background-repeat: no-repeat; color:black; padding: 10px;">
+  <h4 align="center"><font size="+3">Washing Services</p></font>
+  <ul type="disc">
+    <li><h3>Exterior Washing</h3></li>
+    <li><h3>Interior Washing</h3></li>
+    <li><h3>Vacuum Cleaning</h3></li>
+    <li><h3>Seats Washing</h3></li>
+    <li><h3>Window Wiping</h3></li>
+    <li><h3>Wet Cleaning</h3></li>
+    <li><h3>Oil Changing</h3></li>
+    <li><h3>Brake Reparing</h3></li>
+  </ul>
+</div>
+</div>
+<div style="background-color: black; color: #fff; padding: 10px;">
     <h3 style="margin-top: 0;">Contact Us</h3>
     <p>Phone: 9999999999</p>
-    <p>Email: [car@carwashpro.com](mailto:car@carwashpro.com)</p>
+    <p>Email: car@carwashpro.com</p>
   </div>
 </div>
-
-<?php
-include_once('footer.php');
-?>
